@@ -1,0 +1,1883 @@
+{ "type": "FeatureCollection",
+  "features": [
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SBBR", 
+      "firId": "SBRE", 
+      "firName": "SBRE RECIFE", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-6.533,-44.917,-11.000,-35.367,-8.417,-33.817,-6.783,-33.217,-1.267,-36.400,0.917,-40.783,-4.167,-42.517,-4.467,-43.133,-4.683,-43.383,-5.917,-44.183,-6.300,-44.783,-6.533,-44.917", 
+      "top": 43000, 
+      "rawSigmet": "WSBZ01 SBBR 160800\nSBRE SIGMET 3 VALID 160800/161200 SBRE - SBRE RECIFE FIR EMBD TS FCST WI S0632 W04455 - S1100 W03522 - S0825 W03349 - S0647 W03313 - S0116 W03624 - N0055 W04047 - S0410 W04231 - S0428 W04308 - S0441 W04323 - S0555 W04411 - S0618 W04447 - S0632 W04455 TOP FL430 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-44.92,-6.53],[-35.37,-11.00],[-33.82,-8.42],[-33.22,-6.78],
+        [-36.40,-1.27],[-40.78,0.92],[-42.52,-4.17],[-43.13,-4.47],
+        [-43.38,-4.68],[-44.18,-5.92],[-44.78,-6.30],[-44.92,-6.53] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LFPW", 
+      "firId": "LFRR", 
+      "firName": "LFRR BREST", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "44.000,-4.250,44.750,-7.250,49.750,-3.250,50.000,-2.000,50.000,-0.250,48.750,-0.250,44.000,-4.250", 
+      "base": 17000, 
+      "top": 33000, 
+      "rawSigmet": "WSFR35 LFPW 160749\nLFRR SIGMET 2 VALID 160800/161200 LFPW-\nLFRR BREST FIR/UIR SEV TURB FCST WI N4400 W00415 - N4445 W00715 -\nN4945 W00315 - N5000 W00200 - N5000 W00015 - N4845 W00015 - N4400\nW00415 FL170/330 MOV SE 10KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-4.25,44.00],[-7.25,44.75],[-3.25,49.75],[-2.00,50.00],
+        [-0.25,50.00],[-0.25,48.75],[-4.25,44.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LFPW", 
+      "firId": "LFFF", 
+      "firName": "LFFF PARIS", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "48.750,-0.250,50.000,-0.250,51.250,2.000,51.000,2.250,48.750,-0.250", 
+      "base": 25000, 
+      "top": 33000, 
+      "rawSigmet": "WSFR31 LFPW 160749\nLFFF SIGMET 1 VALID 160800/161200 LFPW-\nLFFF PARIS FIR/UIR SEV TURB FCST WI N4845 W00015 - N5000 W00015 -\nN5115 E00200 - N5100 E00215 - N4845 W00015 FL250/330 MOV SE 10KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-0.25,48.75],[-0.25,50.00],[2.00,51.25],[2.25,51.00],
+        [-0.25,48.75] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LEMM", 
+      "firId": "LECM", 
+      "firName": "LECM MADRID", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "44.700,-7.250,43.983,-4.317,40.050,-5.533,40.017,-6.833,41.933,-6.217,41.933,-8.000,44.700,-7.250", 
+      "base": 17000, 
+      "top": 33000, 
+      "rawSigmet": "WSSP31 LEMM 160752\nLECM SIGMET 4 VALID 160800/161200 LEVA-\nLECM MADRID FIR/UIR SEV TURB FCST WI N4442 W00715 - N4359\nW00419 - N4003 W00532 - N4001 W00650 - N4156 W00613 - N4156\nW008 - N4442 W00715  FL170/330 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-7.25,44.70],[-4.32,43.98],[-5.53,40.05],[-6.83,40.02],
+        [-6.22,41.93],[-8.00,41.93],[-7.25,44.70] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "NZKL", 
+      "firId": "NZZO", 
+      "firName": "NZZO AUCKLAND OCEANIC", 
+      "hazard": "TC", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T14:00:00Z", 
+      "qualifier": "GRETEL", 
+      "geom": "AREA", 
+      "coords": "-28.50,174.53,-28.36,174.52,-28.21,174.48,-28.08,174.42,-27.96,174.34,-27.86,174.24,-27.78,174.12,-27.72,173.99,-27.68,173.84,-27.67,173.70,-27.68,173.56,-27.72,173.41,-27.78,173.28,-27.86,173.16,-27.96,173.06,-28.08,172.98,-28.21,172.92,-28.36,172.88,-28.50,172.87,-28.64,172.88,-28.79,172.92,-28.92,172.98,-29.04,173.06,-29.14,173.16,-29.22,173.28,-29.28,173.41,-29.32,173.56,-29.33,173.70,-29.32,173.84,-29.28,173.99,-29.22,174.12,-29.14,174.24,-29.04,174.34,-28.92,174.42,-28.79,174.48,-28.64,174.52,-28.50,174.53", 
+      "top": 45000, 
+      "rawSigmet": "WCPS21 NZKL 160732\nNZZO SIGMET 21 VALID 160800/161400 NZKL-\nNZZO AUCKLAND OCEANIC FIR TC GRETEL PSN S2830 E17342 CB OBS AT 0600Z\nWI 050NM OF TC CENTRE TOP FL450 NC FCST AT 1400Z TC CENTRE PSN S3030\nE17642="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[174.53,-28.50],[174.52,-28.36],[174.48,-28.21],[174.42,-28.08],
+        [174.34,-27.96],[174.24,-27.86],[174.12,-27.78],[173.99,-27.72],
+        [173.84,-27.68],[173.70,-27.67],[173.56,-27.68],[173.41,-27.72],
+        [173.28,-27.78],[173.16,-27.86],[173.06,-27.96],[172.98,-28.08],
+        [172.92,-28.21],[172.88,-28.36],[172.87,-28.50],[172.88,-28.64],
+        [172.92,-28.79],[172.98,-28.92],[173.06,-29.04],[173.16,-29.14],
+        [173.28,-29.22],[173.41,-29.28],[173.56,-29.32],[173.70,-29.33],
+        [173.84,-29.32],[173.99,-29.28],[174.12,-29.22],[174.24,-29.14],
+        [174.34,-29.04],[174.42,-28.92],[174.48,-28.79],[174.52,-28.64],
+        [174.53,-28.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LEMM", 
+      "firId": "LECM", 
+      "firName": "LECM MADRID", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "43.167,-7.000,43.167,-3.167,41.667,-1.833,42.500,-4.167,42.500,-6.000,42.000,-6.500,42.000,-7.667,43.167,-7.000", 
+      "base": 0, 
+      "top": 9000, 
+      "rawSigmet": "WSSP31 LEMM 160756\nLECM SIGMET 5 VALID 160800/161200 LEVA-\nLECM MADRID FIR SEV TURB FCST WI N4310 W007 - N4310 W00310 -\nN4140 W00150 - N4230 W00410 - N4230 W006 - N42 W00630 - N42\nW00740 - N4310 W007  SFC/FL090 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-7.00,43.17],[-3.17,43.17],[-1.83,41.67],[-4.17,42.50],
+        [-6.00,42.50],[-6.50,42.00],[-7.67,42.00],[-7.00,43.17] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SPIM", 
+      "firId": "SPIM", 
+      "firName": "SPIM LIMA", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T11:30:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-12.017,-74.067,-11.450,-73.750,-12.167,-72.483,-11.100,-70.450,-11.650,-69.217,-12.867,-69.017,-14.100,-69.733,-14.050,-70.367,-12.950,-71.067,-13.083,-73.067,-12.017,-74.067", 
+      "top": 45000, 
+      "rawSigmet": "WSPR31 SPIM 160758\nSPIM SIGMET A3 VALID 160800/161130 SPIM-\nSPIM LIMA FIR EMBD TS OBS AT 0740Z WI S1201 W07404 -\nS1127 W07345 - S1210 W07229 - S1106 W07027 - S1139 W06913 -\nS1252 W06901 - S1406 W06944 - S1403 W07022 - S1257 W07104 -\nS1305 W07304 - S1201 W07404 TOP FL450 STNR WKN="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-74.07,-12.02],[-73.75,-11.45],[-72.48,-12.17],[-70.45,-11.10],
+        [-69.22,-11.65],[-69.02,-12.87],[-69.73,-14.10],[-70.37,-14.05],
+        [-71.07,-12.95],[-73.07,-13.08],[-74.07,-12.02] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUIR", 
+      "firId": "UIII", 
+      "firName": "UIII IRKUTSK", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "55.700,97.750,54.167,101.000,53.650,101.167,53.000,99.000,54.000,96.000,55.700,97.750", 
+      "base": 5000, 
+      "top": 15000, 
+      "rawSigmet": "WSRA31 RUIR 160800\nUIII SIGMET 3 VALID 160800/161200 UIII-\nUIII IRKUTSK FIR SEV TURB FCST WI N5542 E09745 - N5410 E10100 - N5339\nE10110 - N5300 E09900 - N5400 E09600 - N5542 E09745 FL050/150 STNR\nNC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[97.75,55.70],[101.00,54.17],[101.17,53.65],[99.00,53.00],
+        [96.00,54.00],[97.75,55.70] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LEMM", 
+      "firId": "LECM", 
+      "firName": "LECM MADRID", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:05:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "40.500,-6.833,41.000,-4.167,40.500,-4.167,40.000,-7.000,40.500,-6.833", 
+      "base": 0, 
+      "top": 9000, 
+      "rawSigmet": "WSSP31 LEMM 160803\nLECM SIGMET 6 VALID 160805/161200 LEVA-\nLECM MADRID FIR SEV TURB FCST WI N4030 W00650 - N41 W00410 -\nN4030 W00410 - N40 W007 - N4030 W00650  SFC/FL090 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-6.83,40.50],[-4.17,41.00],[-4.17,40.50],[-7.00,40.00],
+        [-6.83,40.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SPIM", 
+      "firId": "SPIM", 
+      "firName": "SPIM LIMA", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T11:30:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-2.433,-74.567,-2.217,-73.067,-2.417,-72.500,-2.667,-72.050,-2.317,-71.117,-2.300,-70.050,-2.650,-69.850,-3.717,-70.450,-4.117,-69.733,-4.450,-71.717,-3.883,-72.517,-3.967,-73.733,-2.433,-74.567", 
+      "top": 45000, 
+      "rawSigmet": "WSPR31 SPIM 160813\nSPIM SIGMET 3 VALID 160830/161130 SPIM-\nSPIM LIMA FIR EMBD TS OBS AT 0830Z WI S0226 W07434 -\nS0213 W07304 - S0225 W07230 - S0240 W07203 - S0219 W07107 -\nS0218 W07003 - S0239 W06951 - S0343 W07027 - S0407 W06944 -\nS0427 W07143 - S0353 W07231 - S0358 W07344 - S0226 W07434 TOP FL450 MOV N WKN="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-74.57,-2.43],[-73.07,-2.22],[-72.50,-2.42],[-72.05,-2.67],
+        [-71.12,-2.32],[-70.05,-2.30],[-69.85,-2.65],[-70.45,-3.72],
+        [-69.73,-4.12],[-71.72,-4.45],[-72.52,-3.88],[-73.73,-3.97],
+        [-74.57,-2.43] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUNW", 
+      "firId": "UNNT", 
+      "firName": "UNNT NOVOSIBIRSK", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "60.683,83.558,58.754,87.945,57.319,88.173,55.965,89.113,54.574,88.652,52.836,89.102,52.350,88.821,52.350,79.417,55.667,79.900,58.350,79.867,60.656,79.833,60.611,80.205,60.683,80.793,60.683,83.558", 
+      "base": 0, 
+      "top": 15000, 
+      "rawSigmet": "WSRA31 RUNW 160817\nUNNT SIGMET 2 VALID 160830/161200 UNNT-\nUNNT NOVOSIBIRSK FIR SEV TURB FCST E OF LINE N6041 E07950 - N5821\nE07952 - N5540 E07954 - N5221 E07925 SFC/FL150 MOV E 30KMH NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[83.56,60.68],[87.94,58.75],[88.17,57.32],[89.11,55.97],
+        [88.65,54.57],[89.10,52.84],[88.82,52.35],[79.42,52.35],
+        [79.90,55.67],[79.87,58.35],[79.83,60.66],[80.20,60.61],
+        [80.79,60.68],[83.56,60.68] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "BICC", 
+      "firId": "BIRD", 
+      "firName": "BIRD REYKJAVIK", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T09:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "65.500,-25.000,66.500,-24.833,66.833,-20.333,66.000,-20.000,65.500,-25.000", 
+      "base": 0, 
+      "top": 10000, 
+      "rawSigmet": "WSIL31 BICC 160812\nBIRD SIGMET A04 VALID 160900/161200 BIRK-\nBIRD REYKJAVIK CTA SEV TURB FCST WI N6530 W02500 - N6630 W02450 -\nN6650 W02020 - N6600 W02000 - N6530 W02500 SFC/FL100 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-25.00,65.50],[-24.83,66.50],[-20.33,66.83],[-20.00,66.00],
+        [-25.00,65.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "GOOY", 
+      "firId": "GOOO", 
+      "firName": "GOOO DAKAR TERRESTRE", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:05:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "LINE", 
+      "coords": "4.067,-14.500,0.700,-25.450", 
+      "top": 45000, 
+      "rawSigmet": "WSSG31 GOOY 160830\nGOOO SIGMET A1 VALID 160830/161205 GOBD-\nGOOO DAKAR TERRESTRE FIR/UIR EMBD TS OBS AT 0820Z \nWI N0404 W01430 - N0042 W02527 - N0318 W02856 \nTOP FL450 MOV W 10KT INTSF="
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+[-14.50,4.07],[-25.45,0.70] ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SBBR", 
+      "firId": "SBAZ", 
+      "firName": "SBAZ AMAZONICA", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T07:00:00Z", 
+      "validTimeTo": "2020-03-16T11:00:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "2.233,-63.167,0.533,-60.817,-3.200,-64.550,-5.633,-61.083,-12.333,-63.317,-11.600,-65.067,-9.450,-65.250,-10.700,-68.633,-10.617,-70.433,-7.433,-73.650,-2.483,-69.433,0.250,-69.967,2.683,-68.483,2.233,-63.167", 
+      "top": 43000, 
+      "rawSigmet": "WSBZ01 SBBR 160800\nSBAZ SIGMET 7 VALID 160700/161100 SBAZ- SBAZ AMAZONICA FIR EMBD TS FCST WI N0214 W06310 - N0032 W06049 - S0312 W06433 - S0538 W06105 - S1220 W06319 - S1136 W06504 - S0927 W06515 - S1042 W06838 - S1037 W07026 - S0726 W07339 - S0229 W06926 - N0015 W06958 - N0241 W06829 - N0214 W06310 TOP FL430 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-63.17,2.23],[-60.82,0.53],[-64.55,-3.20],[-61.08,-5.63],
+        [-63.32,-12.33],[-65.07,-11.60],[-65.25,-9.45],[-68.63,-10.70],
+        [-70.43,-10.62],[-73.65,-7.43],[-69.43,-2.48],[-69.97,0.25],
+        [-68.48,2.68],[-63.17,2.23] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "WIII", 
+      "firId": "WIIZ", 
+      "firName": "WIIZ JAKARTA", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:35:00Z", 
+      "validTimeTo": "2020-03-16T09:35:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-2.200,97.633,-2.750,97.650,-2.883,94.300,-1.917,93.033,-0.083,94.300,0.467,95.717,-2.200,97.633", 
+      "top": 51000, 
+      "rawSigmet": "WSID20 WIII 160631\nWIIZ SIGMET 05 VALID 160635/160935 WIII-\nWIIZ JAKARTA FIR EMBD TS OBS WI S0212 E09738 - S0245 E09739 - S0253\n E09418 - S0155 E09302 - S0005 E09418 - N0028 E09543 - S0212 E09738\n TOP FL510 MOV W 5KT INTSF="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[97.63,-2.20],[97.65,-2.75],[94.30,-2.88],[93.03,-1.92],
+        [94.30,-0.08],[95.72,0.47],[97.63,-2.20] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUPK", 
+      "firId": "UHPP", 
+      "firName": "UHPP PETROPAVLOVSK-KAMCHATSKY", 
+      "hazard": "ICE", 
+      "validTimeFrom": "2020-03-16T06:02:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "62.043,164.080,62.003,170.707,61.870,175.667,61.509,180.000,61.271,182.404,60.020,180.000,58.547,177.232,56.717,173.742,54.592,170.025,54.060,169.108,52.169,164.248,50.089,159.013,48.971,156.983,47.269,154.000,58.000,154.000,59.003,156.009,59.989,158.474,62.043,164.080", 
+      "base": 0, 
+      "top": 16000, 
+      "rawSigmet": "WSRA31 RUPK 160415\nUHPP SIGMET 3 VALID 160602/161000 UHPP-\nUHPP PETROPAVLOVSK-KAMCHATSKY FIR/UIR SEV ICE FCST E OF E154\nSFC/FL160 MOV NE 30KMH NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[164.08,62.04],[170.71,62.00],[175.67,61.87],[180.00,61.51],
+        [182.40,61.27],[180.00,60.02],[177.23,58.55],[173.74,56.72],
+        [170.03,54.59],[169.11,54.06],[164.25,52.17],[159.01,50.09],
+        [156.98,48.97],[154.00,47.27],[154.00,58.00],[156.01,59.00],
+        [158.47,59.99],[164.08,62.04] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "BICC", 
+      "firId": "BIRD", 
+      "firName": "BIRD REYKJAVIK", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T07:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "62.500,-6.167,61.167,-6.500,61.333,-7.167,62.333,-8.000,62.500,-6.167", 
+      "base": 0, 
+      "top": 10000, 
+      "rawSigmet": "WSIL31 BICC 160600\nBIRD SIGMET B01 VALID 160700/161000 BIRK-\nBIRD REYKJAVIK CTA SEV TURB FCST WI N6230 W00610 - N6110 W00630 -\nN6120 W00710 - N6220 W00800 - N6230 W00610 SFC/FL100 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-6.17,62.50],[-6.50,61.17],[-7.17,61.33],[-8.00,62.33],
+        [-6.17,62.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "NZKL", 
+      "firId": "NZZC", 
+      "firName": "NZZC NEW ZEALAND", 
+      "hazard": "ICE", 
+      "validTimeFrom": "2020-03-16T06:48:00Z", 
+      "validTimeTo": "2020-03-16T10:48:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-33.833,173.333,-33.667,175.333,-34.167,177.000,-35.000,178.000,-35.333,175.833,-35.000,173.167,-34.333,172.500,-33.833,173.333", 
+      "base": 12000, 
+      "top": 20000, 
+      "rawSigmet": "WSNZ21 NZKL 160635\nNZZC SIGMET 5 VALID 160648/161048 NZKL-\nNZZC NEW ZEALAND FIR SEV ICE FCST WI S3350 E17320 - S3340 E17520 -\nS3410 E17700 - S3500 E17800 - S3520 E17550 - S3500 E17310 - S3420\nE17230 - S3350 E17320 FL120/200 MOV SSE 15KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[173.33,-33.83],[175.33,-33.67],[177.00,-34.17],[178.00,-35.00],
+        [175.83,-35.33],[173.17,-35.00],[172.50,-34.33],[173.33,-33.83] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "NZKL", 
+      "firId": "NZZO", 
+      "firName": "NZZO AUCKLAND OCEANIC", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:52:00Z", 
+      "validTimeTo": "2020-03-16T10:52:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-36.667,168.333,-37.333,167.000,-39.667,168.500,-41.500,170.333,-40.000,170.833,-36.667,168.333", 
+      "base": 29000, 
+      "top": 38000, 
+      "rawSigmet": "WSPS21 NZKL 160643\nNZZO SIGMET 17 VALID 160652/161052 NZKL-\nNZZO AUCKLAND OCEANIC FIR SEV TURB FCST WI S3640 E16820 - S3720\nE16700 - S3940 E16830 - S4130 E17020 - S4000 E17050 - S3640 E16820\nFL290/380 STNR WKN="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[168.33,-36.67],[167.00,-37.33],[168.50,-39.67],[170.33,-41.50],
+        [170.83,-40.00],[168.33,-36.67] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FSIA", 
+      "firId": "FSSS", 
+      "firName": "FSSS SEYCHELLES", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:45:00Z", 
+      "validTimeTo": "2020-03-16T10:45:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-8.217,44.733,-9.383,52.083,-9.450,45.433,-8.217,44.733", 
+      "top": 39000, 
+      "rawSigmet": "WSSC31 FSIA 160550\nFSSS SIGMET 02 VALID 160645/161045 FSIA-\nFSSS SEYCHELLES FIR EMBD TS FCST WI S0813 E04444 - S0923 E05205 -\nS0927 E04526 - S0813 E04444 TOP ABV FL390 STNR INTSF="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[44.73,-8.22],[52.08,-9.38],[45.43,-9.45],[44.73,-8.22] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LFPW", 
+      "firId": "LFBB", 
+      "firName": "LFBB BORDEAUX", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T09:00:00Z", 
+      "validTimeTo": "2020-03-16T11:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "42.750,2.250,43.500,1.500,45.000,2.750,43.000,2.500,42.750,2.250", 
+      "base": 0, 
+      "top": 6000, 
+      "rawSigmet": "WSFR32 LFPW 160844\nLFBB SIGMET 2 VALID 160900/161100 LFPW-\nLFBB BORDEAUX FIR/UIR SEV TURB FCST WI N4245 E00215 - N4330 E00130 -\nN4500 E00245 - N4300 E00230 - N4245 E00215 SFC/FL060 STNR WKN="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[2.25,42.75],[1.50,43.50],[2.75,45.00],[2.50,43.00],
+        [2.25,42.75] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LFPW", 
+      "firId": "LFMM", 
+      "firName": "LFMM MARSEILLE", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T09:00:00Z", 
+      "validTimeTo": "2020-03-16T11:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "43.000,2.500,45.000,2.750,45.250,3.250,45.500,5.250,43.000,2.500", 
+      "base": 0, 
+      "top": 6000, 
+      "rawSigmet": "WSFR34 LFPW 160844\nLFMM SIGMET 2 VALID 160900/161100 LFPW-\nLFMM MARSEILLE FIR/UIR SEV TURB FCST WI N4300 E00230 - N4500 E00245 -\n N4515 E00315 - N4530 E00515 - N4300 E00230 SFC/FL060 STNR WKN="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[2.50,43.00],[2.75,45.00],[3.25,45.25],[5.25,45.50],
+        [2.50,43.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SBBR", 
+      "firId": "SBCW", 
+      "firName": "SBCW CURITIBA", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:45:00Z", 
+      "validTimeTo": "2020-03-16T12:30:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-17.933,-57.567,-17.767,-55.950,-22.400,-52.750,-22.383,-55.217,-19.717,-58.067,-18.233,-57.400,-17.933,-57.567", 
+      "top": 40000, 
+      "rawSigmet": "WSBZ01 SBBR 160800\nSBCW SIGMET 9 VALID 160845/161230 SBCW- SBCW CURITIBA FIR EMBD TS FCST WI S1756 W05734 - S1746W05557 - S2224 W05245 - S2223 W05513 - S1943 W05804 - S1814 W05724 - S1756 W05734 TOP FL400 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-57.57,-17.93],[-55.95,-17.77],[-52.75,-22.40],[-55.22,-22.38],
+        [-58.07,-19.72],[-57.40,-18.23],[-57.57,-17.93] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "ENMI", 
+      "firId": "ENBD", 
+      "firName": "ENOR NORWAY", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T09:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "67.833,12.500,67.917,19.833,70.417,20.250,69.083,15.000,67.833,12.500", 
+      "base": 0, 
+      "top": 10000, 
+      "rawSigmet": "WSNO35 ENMI 160850\nENBD SIGMET D01 VALID 160900/161200 ENVN-\nENOR NORWAY FIR SEV TURB FCST WI N6750 E01230 - N6755 E01950 -\nN7025 E02015 - N6905 E01500 - N6750 E01230 SFC/FL100 MOV NW 30KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[12.50,67.83],[19.83,67.92],[20.25,70.42],[15.00,69.08],
+        [12.50,67.83] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "AMRF", 
+      "firId": "YMMM", 
+      "firName": "YMMM MELBOURNE", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:52:00Z", 
+      "validTimeTo": "2020-03-16T12:52:00Z", 
+      "qualifier": "FRQ", 
+      "geom": "AREA", 
+      "coords": "-28.333,119.333,-27.333,120.167,-28.667,121.833,-29.333,121.333", 
+      "top": 40000, 
+      "rawSigmet": "WSAU21 AMRF 160852\nYMMM SIGMET G01 VALID 160852/161252 YMRF-\nYMMM MELBOURNE FIR FRQ TS FCST WI S2820 E11920 - S2720 E12010 -\nS2840 E12150 - S2920 E12120 TOP ABV FL400 MOV SE 30KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[119.33,-28.33],[120.17,-27.33],[121.83,-28.67],[121.33,-29.33],[119.33,-28.33] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "ZMUB", 
+      "firId": "ZMUB", 
+      "firName": "ZMUB ULAANBAATAR", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "50.300,106.467,47.867,106.733,46.017,108.883,44.900,110.117,43.683,111.917,44.783,113.250,47.567,118.583,49.900,115.750,49.567,112.917,50.300,106.467", 
+      "base": 22000, 
+      "top": 35000, 
+      "rawSigmet": "WSMO31 ZMUB 160630\nZMUB SIGMET 01 VALID 160600/161200 ZMUB-\nZMUB ULAANBAATAR FIR SEV TURB FCST WI N5018 E10628 - N4752 E10644 -\nN4601 E10853 - N4454 E11007 - N4341 E11155 - N4447 E11315 - N4734\nE11835 - N4954 E11545 - N4934 E11255 - N5018 E10628 FL220/350 MOV E\n30KMH WKN="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[106.47,50.30],[106.73,47.87],[108.88,46.02],[110.12,44.90],
+        [111.92,43.68],[113.25,44.78],[118.58,47.57],[115.75,49.90],
+        [112.92,49.57],[106.47,50.30] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "WAAA", 
+      "firId": "WAAZ", 
+      "firName": "WAAZ UJUNG FIR PANDANG", 
+      "hazard": "VA", 
+      "validTimeFrom": "2020-03-16T09:00:00Z", 
+      "validTimeTo": "2020-03-16T15:00:00Z", 
+      "qualifier": "DUKONO", 
+      "geom": "AREA", 
+      "coords": "1.717,127.933,0.400,127.767,0.700,126.967,1.750,127.867,1.717,127.933", 
+      "base": 0, 
+      "top": 7000, 
+      "rawSigmet": "WVID21 WAAA 160858\nWAAZ SIGMET 04 VALID 160900/161500 WAAA-\nWAAZ UJUNG FIR PANDANG FIR VA ERUPTION MT DUKONO PSN N0141 E12753\nVA CLD OBS AT 0900Z\nWI N0143 E12756 - N0024 E12746 - N0042\nE12658 - N0145 E12752 - N0143\nE12756 SFC/FL070 MOV SW 10KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[127.93,1.72],[127.77,0.40],[126.97,0.70],[127.87,1.75],
+        [127.93,1.72] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "WAAA", 
+      "firId": "WAAZ", 
+      "firName": "WAAZ UJUNG PANDANG", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T09:05:00Z", 
+      "validTimeTo": "2020-03-16T12:05:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-3.767,141.000,-4.817,141.000,-3.867,138.850,-3.517,139.117,-3.767,141.000", 
+      "top": 50000, 
+      "rawSigmet": "WSID21 WAAA 160900\nWAAZ SIGMET 05 VALID 160905/161205 WAAA-\nWAAZ UJUNG PANDANG FIR EMBD TS OBS WI S0346 E14100 - S0449 E14100 - S\n0352 E13851 - S0331 E13907 - S0346 E14100 TOP FL500 MOV WSW 5KT INTSF\n="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[141.00,-3.77],[141.00,-4.82],[138.85,-3.87],[139.12,-3.52],
+        [141.00,-3.77] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "ESWI", 
+      "firId": "ESAA", 
+      "firName": "ESAA SWEDEN", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T09:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "67.817,16.267,67.833,19.917,69.150,20.233,67.817,16.267", 
+      "base": 0, 
+      "top": 8000, 
+      "rawSigmet": "WSSN31 ESWI 160857\nESAA SIGMET U01 VALID 160900/161200 ESSA-\nESAA SWEDEN FIR SEV TURB FCST WI N6749 E01616 - N6750 E01955 - N6909\nE02014 - N6749 E01616 SFC/FL080 STNR INTSF="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[16.27,67.82],[19.92,67.83],[20.23,69.15],[16.27,67.82] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FMMI", 
+      "firId": "FMMM", 
+      "firName": "FMMM ANTANANARIVO", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:47:00Z", 
+      "validTimeTo": "2020-03-16T10:47:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-10.000,49.000,-10.000,54.000,-11.500,55.500,-14.333,55.500,-13.000,51.000", 
+      "top": 48000, 
+      "rawSigmet": "WSMG31 FMMI 160647\nFMMM SIGMET B1 VALID 160647/161047 FMMI-\nFMMM ANTANANARIVO FIR/UIR ISOL EMBD TS OBS WI S1000 E04900 - S1000\nE05400 - S1130 E05530 - S1420 E05530 - S1300 E05100 TOP ABV FL480\nSTNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[49.00,-10.00],[54.00,-10.00],[55.50,-11.50],[55.50,-14.33],
+        [51.00,-13.00],[49.00,-10.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SLLP", 
+      "firId": "SLLF", 
+      "firName": "SLLF LA PAZ", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:20:00Z", 
+      "validTimeTo": "2020-03-16T10:20:00Z", 
+      "qualifier": "FRQ", 
+      "geom": "AREA", 
+      "coords": "-14.283,-69.600,-12.650,-68.600,-10.683,-69.800,-10.250,-67.867,-9.433,-65.450,-11.617,-65.167,-15.183,-64.883,-16.250,-60.400,-19.167,-57.900,-20.067,-58.300,-19.733,-61.817,-21.950,-62.700,-21.833,-64.033,-22.600,-64.350,-21.833,-64.767,-22.000,-67.667,-17.233,-69.683,-16.033,-69.167,-16.000,-69.117", 
+      "top": 40000, 
+      "rawSigmet": "WSBO31 SLLP 160621\nSLLF SIGMET 2 VALID 160620/161020 SLLP-\nSLLF LA PAZ FIR FRQ TS OBS AND FCST AT 0617Z WI\nS1417 W06936  S1239 W06836  S1041 W06948  \nS1015 W06752  S0926 W06527  S1137 W06510  \nS1511 W06453  S1615 W06024  S1910 W05754  \nS2004 W05818  S1944 W06149  S2157 W06242  \nS2150 W06402  S2236 W06421  S2150 W06446  \nS2200 W06740  S1714 W06941  S1602 W06910  \nS1600 W06907  TOP FL400 MOV S 08KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-69.60,-14.28],[-68.60,-12.65],[-69.80,-10.68],[-67.87,-10.25],
+        [-65.45,-9.43],[-65.17,-11.62],[-64.88,-15.18],[-60.40,-16.25],
+        [-57.90,-19.17],[-58.30,-20.07],[-61.82,-19.73],[-62.70,-21.95],
+        [-64.03,-21.83],[-64.35,-22.60],[-64.77,-21.83],[-67.67,-22.00],
+        [-69.68,-17.23],[-69.17,-16.03],[-69.12,-16.00],[-69.60,-14.28] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "NZKL", 
+      "firId": "NZZO", 
+      "firName": "NZZO AUCKLAND OCEANIC", 
+      "hazard": "ICE", 
+      "validTimeFrom": "2020-03-16T06:45:00Z", 
+      "validTimeTo": "2020-03-16T10:45:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-32.167,175.667,-34.500,177.500,-34.333,172.500,-31.333,171.667,-32.167,175.667", 
+      "base": 13000, 
+      "top": 20000, 
+      "rawSigmet": "WSPS21 NZKL 160641\nNZZO SIGMET 15 VALID 160645/161045 NZKL-\nNZZO AUCKLAND OCEANIC FIR SEV ICE FCST WI S3210 E17540 - S3430\nE17730 - S3420 E17230 - S3120 E17140 - S3210 E17540 FL130/200 MOV SE\n10KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[175.67,-32.17],[177.50,-34.50],[172.50,-34.33],[171.67,-31.33],
+        [175.67,-32.17] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUAA", 
+      "firId": "UUYY", 
+      "firName": "UUYY SYKTYVKAR", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:42:00Z", 
+      "validTimeTo": "2020-03-16T11:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "67.000,65.406,66.499,63.451,65.500,61.780,65.500,49.997,65.826,49.864,66.766,51.869,67.000,55.389,67.000,65.406", 
+      "base": 0, 
+      "top": 10000, 
+      "rawSigmet": "WSRS32 RUAA 160642\nUUYY SIGMET 2 VALID 160642/161100 UUYY-\nUUYY SYKTYVKAR FIR SEV TURB FCST\nS OF N6700 AND N OF N6530 SFC/FL100 MOV SE 40KMH NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[65.41,67.00],[63.45,66.50],[61.78,65.50],[50.00,65.50],
+        [49.86,65.83],[51.87,66.77],[55.39,67.00],[65.41,67.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FIMP", 
+      "firId": "FIMM", 
+      "firName": "FIMM MAURITIUS", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:15:00Z", 
+      "validTimeTo": "2020-03-16T10:15:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-12.000,56.000,-15.000,59.000,-16.000,58.000,-14.000,56.000,-12.000,56.000", 
+      "top": 39000, 
+      "rawSigmet": "WSMA31 FIMP 160615\nFIMM SIGMET C01 VALID 160615/161015 FIMP-\nFIMM MAURITIUS FIR EMBD TS OBS AT 0530Z WI S1200 E05600 - S1500\nE05900 - S1600 E05800 - S1400 E05600 - S1200 E05600 TOP ABV FL390 MOV\nESE 07KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[56.00,-12.00],[59.00,-15.00],[58.00,-16.00],[56.00,-14.00],
+        [56.00,-12.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FIMP", 
+      "firId": "FIMM", 
+      "firName": "FIMM MAURITIUS", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-7.000,68.000,-7.000,73.500,-12.500,74.000,-12.000,69.000,-7.000,68.000", 
+      "top": 41000, 
+      "rawSigmet": "WSMA31 FIMP 160600\nFIMM SIGMET A02 VALID 160600/161000 FIMP -\nFIMM MAURITIUS FIR EMBD TS OBS AT 0530Z WI S0700 E06800 - S0700\nE07330 - S1230 E07400 - S1200 E06900 - S0700 E06800 TOP ABV FL410\nSTNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[68.00,-7.00],[73.50,-7.00],[74.00,-12.50],[69.00,-12.00],
+        [68.00,-7.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "KKCI", 
+      "firId": "KZAK", 
+      "firName": "OAKLAND OCEANIC", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:30:00Z", 
+      "validTimeTo": "2020-03-16T10:30:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "38.500,-171.750,38.000,-166.250,26.750,-169.750,28.500,-175.500,38.500,-171.750", 
+      "base": 25000, 
+      "top": 34000, 
+      "rawSigmet": "WSPN01 KKCI 160630\nSIGP0A\nKZAK SIGMET ALFA 2 VALID 160630/161030 KKCI-\nOAKLAND OCEANIC FIR SEV TURB FCST WI N3830 W17145 - N3800 W16615\n- N2645 W16945 - N2830 W17530 - N3830 W17145. FL250/340. MOV E\n15KT. INTSF."
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-171.75,38.50],[-166.25,38.00],[-169.75,26.75],[-175.50,28.50],
+        [-171.75,38.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FAOR", 
+      "firId": "FAJA", 
+      "firName": "FAJA JOHANNESBURG", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-27.500,15.000,-27.500,15.550,-30.500,16.400,-30.500,15.000", 
+      "base": 0, 
+      "top": 3000, 
+      "rawSigmet": "WSZA21 FAOR 160603\nFAJA SIGMET D01 VALID 160600/161000 FAOR-\nFAJA JOHANNESBURG FIR SEV TURB FCST WI\nS2730 E01500 - S2730 E01533 - S3030 E01624 - S3030 E01500 SFC/FL030="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[15.00,-27.50],[15.55,-27.50],[16.40,-30.50],[15.00,-30.50],[15.00,-27.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FMMI", 
+      "firId": "FMMM", 
+      "firName": "FMMM ANTANANARIVO", 
+      "hazard": "TC", 
+      "validTimeFrom": "2020-03-16T06:34:00Z", 
+      "validTimeTo": "2020-03-16T12:34:00Z", 
+      "qualifier": "HEROLD", 
+      "geom": "AREA", 
+      "coords": "-15.57,55.78,-15.28,55.76,-15.00,55.68,-14.73,55.56,-14.50,55.39,-14.29,55.19,-14.12,54.95,-14.00,54.69,-13.93,54.41,-13.90,54.12,-13.93,53.83,-14.00,53.55,-14.12,53.28,-14.29,53.05,-14.50,52.84,-14.73,52.67,-15.00,52.55,-15.28,52.48,-15.57,52.45,-15.86,52.48,-16.14,52.55,-16.40,52.67,-16.64,52.84,-16.84,53.05,-17.01,53.28,-17.13,53.55,-17.21,53.83,-17.23,54.12,-17.21,54.41,-17.13,54.69,-17.01,54.95,-16.84,55.19,-16.64,55.39,-16.40,55.56,-16.14,55.68,-15.86,55.76,-15.57,55.78", 
+      "top": 54000, 
+      "rawSigmet": "WCMG31 FMMI 160634\nFMMM SIGMET A3 VALID 160634/161234 FMMI-\nFMMM ANTANANARIVO FIR/UIR TC HEROLD OBS AT 0600Z S1534 E05407 CB TOP\nFL540 WI 100NM OF CENTRE MOV ESE 08KT INTSF FCST 1200Z TC CENTRE\nS1616 E05531="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[55.78,-15.57],[55.76,-15.28],[55.68,-15.00],[55.56,-14.73],
+        [55.39,-14.50],[55.19,-14.29],[54.95,-14.12],[54.69,-14.00],
+        [54.41,-13.93],[54.12,-13.90],[53.83,-13.93],[53.55,-14.00],
+        [53.28,-14.12],[53.05,-14.29],[52.84,-14.50],[52.67,-14.73],
+        [52.55,-15.00],[52.48,-15.28],[52.45,-15.57],[52.48,-15.86],
+        [52.55,-16.14],[52.67,-16.40],[52.84,-16.64],[53.05,-16.84],
+        [53.28,-17.01],[53.55,-17.13],[53.83,-17.21],[54.12,-17.23],
+        [54.41,-17.21],[54.69,-17.13],[54.95,-17.01],[55.19,-16.84],
+        [55.39,-16.64],[55.56,-16.40],[55.68,-16.14],[55.76,-15.86],
+        [55.78,-15.57] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUKR", 
+      "firId": "UNKL", 
+      "firName": "UNKL KRASNOYARSK", 
+      "hazard": "MTW", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "56.067,89.083,55.933,98.000,52.133,92.283,51.533,88.283", 
+      "rawSigmet": "WSRA31 RUKR 160421\nUNKL SIGMET 3 VALID 160600/161000 UNKL-\nUNKL KRASNOYARSK FIR SEV MTW FCST S OF LINE N5604 E08905 - N5556\nE09800 AND NW OF LINE N5132 E08817 - N5208 E09217 - N5400 E09600\nSFC/FL100 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[89.08,56.07],[98.00,55.93],[92.28,52.13],[88.28,51.53],[89.08,56.07] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FIMP", 
+      "firId": "FIMM", 
+      "firName": "FIMM MAURITIUS", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:05:00Z", 
+      "validTimeTo": "2020-03-16T10:05:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-14.000,70.000,-14.000,74.000,-20.000,74.000,-19.000,70.000,-14.000,70.000", 
+      "top": 41000, 
+      "rawSigmet": "WSMA31 FIMP 160605\nFIMM SIGMET B02 VALID 160605/161005 FIMP-\nFIMM MAURITIUS FIR EMBD TS OBS AT 0530Z WI S1400 E07000 - S1400\nE07400 - S2000 E07400 - S1900 E07000 - S1400 E07000 TOP ABV FL410\nSTNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[70.00,-14.00],[74.00,-14.00],[74.00,-20.00],[70.00,-19.00],
+        [70.00,-14.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RJTD", 
+      "firId": "RJJJ", 
+      "firName": "RJJJ FUKUOKA", 
+      "hazard": "VA", 
+      "validTimeFrom": "2020-03-16T06:15:00Z", 
+      "validTimeTo": "2020-03-16T12:15:00Z", 
+      "qualifier": "ASOSAN", 
+      "geom": "AREA", 
+      "coords": "32.88,131.93,33.03,131.92,33.17,131.88,33.30,131.82,33.42,131.74,33.52,131.64,33.60,131.52,33.67,131.39,33.70,131.24,33.72,131.10,33.70,130.96,33.67,130.81,33.60,130.68,33.52,130.56,33.42,130.46,33.30,130.38,33.17,130.32,33.03,130.28,32.88,130.27,32.74,130.28,32.60,130.32,32.47,130.38,32.35,130.46,32.24,130.56,32.16,130.68,32.10,130.81,32.06,130.96,32.05,131.10,32.06,131.24,32.10,131.39,32.16,131.52,32.24,131.64,32.35,131.74,32.47,131.82,32.60,131.88,32.74,131.92,32.88,131.93", 
+      "top": 6000, 
+      "rawSigmet": "WVJP31 RJTD 160615\nRJJJ SIGMET C02 VALID 160615/161215 RJTD-\nRJJJ FUKUOKA FIR MT ASOSAN PSN N3253 E13106 VA CLD OBS AT 0600Z\nFL060 MOV S="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[131.93,32.88],[131.92,33.03],[131.88,33.17],[131.82,33.30],
+        [131.74,33.42],[131.64,33.52],[131.52,33.60],[131.39,33.67],
+        [131.24,33.70],[131.10,33.72],[130.96,33.70],[130.81,33.67],
+        [130.68,33.60],[130.56,33.52],[130.46,33.42],[130.38,33.30],
+        [130.32,33.17],[130.28,33.03],[130.27,32.88],[130.28,32.74],
+        [130.32,32.60],[130.38,32.47],[130.46,32.35],[130.56,32.24],
+        [130.68,32.16],[130.81,32.10],[130.96,32.06],[131.10,32.05],
+        [131.24,32.06],[131.39,32.10],[131.52,32.16],[131.64,32.24],
+        [131.74,32.35],[131.82,32.47],[131.88,32.60],[131.92,32.74],
+        [131.93,32.88] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FAOR", 
+      "firId": "FAJA", 
+      "firName": "FAJA JOHANNESBURG", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-27.117,32.983,-28.117,34.783,-32.917,31.867,-31.900,30.017,-29.633,31.550", 
+      "base": 0, 
+      "top": 3000, 
+      "rawSigmet": "WSZA21 FAOR 160606\nFAJA SIGMET E01 VALID 160600/161000 FAOR-\nFAJA JOHANNESBURG FIR SEV TURB FCST WI\nS2707 E03259 - S2807 E03447 - S3255 E03152 - S3154 E03001 -\nS2938 E03133 SFC/FL030="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[32.98,-27.12],[34.78,-28.12],[31.87,-32.92],[30.02,-31.90],
+        [31.55,-29.63],[32.98,-27.12] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUKR", 
+      "firId": "UNKL", 
+      "firName": "UNKL KRASNOYARSK", 
+      "hazard": "ICE", 
+      "validTimeFrom": "2020-03-16T07:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "63.450,84.800,62.217,99.167,61.000,98.583,60.333,95.833,57.750,95.733,57.350,88.167,58.750,87.933,60.917,83.000,63.450,84.800", 
+      "base": 0, 
+      "top": 10000, 
+      "rawSigmet": "WSRA31 RUKR 160617\nUNKL SIGMET 4 VALID 160700/161000 UNKL-\nUNKL KRASNOYARSK FIR SEV ICE FCST WI N6327 E08448 - N6213 E09910 -\nN6100 E09835 - N6020 E09550 - N5745 E09544 - N5721 E08810 - N5845\nE08756 - N6055 E08300 - N6327 E08448 SFC/FL100 MOV SE 20KMH NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[84.80,63.45],[99.17,62.22],[98.58,61.00],[95.83,60.33],
+        [95.73,57.75],[88.17,57.35],[87.93,58.75],[83.00,60.92],
+        [84.80,63.45] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "MMMX", 
+      "firId": "MMEX", 
+      "firName": "MMFR MEXICO", 
+      "hazard": "VA", 
+      "validTimeFrom": "2020-03-16T06:07:00Z", 
+      "validTimeTo": "2020-03-16T12:07:00Z", 
+      "qualifier": "POPOCATEPE", 
+      "geom": "AREA", 
+      "coords": "19.500,-98.700,19.500,-98.383,19.033,-98.583", 
+      "base": 0, 
+      "top": 21000, 
+      "rawSigmet": "WVMX31 MMMX 160609\nMMEX SIGMET 2 VALID 160607/161207 MMMX-\nMMFR MEXICO FIR VA POPOCATEPETL PSN N1901 W09837 OBS\n AT 160607Z\nVA CLD BTN SFC/FL210 N1930 W09842 - N1930 W09823 - N1902 W09835 - N19\n04\n         W09837 - N1930 W09842\nMOV N 5-10 KTS WKN.\nOUTLK AT 16/1100UTC VA CLD BTN SFC/FL210 N1930 W09829 - N1923 W09808 \n- N1900\n         W09836 - N1902 W09838 - N1930 W09829\n="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-98.70,19.50],[-98.38,19.50],[-98.58,19.03],[-98.70,19.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FAOR", 
+      "firId": "FACA", 
+      "firName": "FACA CAPE TOWN", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-30.500,15.000,-30.500,16.400,-33.217,17.167,-34.533,17.717,-34.833,19.817,-33.733,26.717,-34.917,27.683,-36.233,15.000,-36.050,15.000", 
+      "base": 0, 
+      "top": 3000, 
+      "rawSigmet": "WSZA21 FAOR 160602\nFACA SIGMET B01 VALID 160600/161000 FAOR-\nFACA CAPE TOWN FIR SEV TURB FCST WI\nS3030 E01500 - S3030 E01624 - S3313 E01710 - S3432 E01743 -\nS3450 E01949 - S3344 E02643 - S3455 E02741 - S3614 E01500 -\nS3603 E01500 SFC/FL030="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[15.00,-30.50],[16.40,-30.50],[17.17,-33.22],[17.72,-34.53],
+        [19.82,-34.83],[26.72,-33.73],[27.68,-34.92],[15.00,-36.23],
+        [15.00,-36.05],[15.00,-30.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FAOR", 
+      "firId": "FAJO", 
+      "firName": "FAJO JOHANNESBURG OCEANIC", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-33.317,43.600,-36.317,48.617,-46.133,56.083,-48.167,48.850,-35.867,40.083", 
+      "top": 34000, 
+      "rawSigmet": "WSZA21 FAOR 160559\nFAJO SIGMET E01 VALID 160600/161000 FAOR-\nFAJO JOHANNESBURG OCEANIC FIR EMBD TS FCST WI\nS3319 E04336 - S3619 E04837 - S4608 E05605 - S4810 E04851 -\nS3552 E04005 TOP FL340="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[43.60,-33.32],[48.62,-36.32],[56.08,-46.13],[48.85,-48.17],
+        [40.08,-35.87],[43.60,-33.32] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FAOR", 
+      "firId": "FAJO", 
+      "firName": "FAJO JOHANNESBURG OCEANIC", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-35.933,-2.933,-36.167,1.217,-46.500,6.300,-49.767,0.550,-39.017,-5.533", 
+      "top": 34000, 
+      "rawSigmet": "WSZA21 FAOR 160558\nFAJO SIGMET D01 VALID 160600/161000 FAOR-\nFAJO JOHANNESBURG OCEANIC FIR EMBD TS FCST WI\nS3556 W00256 - S3610 E00113 - S4630 E00618 - S4946 E00033 -\nS3901 W00532 TOP FL340="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-2.93,-35.93],[1.22,-36.17],[6.30,-46.50],[0.55,-49.77],
+        [-5.53,-39.02],[-2.93,-35.93] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SPIM", 
+      "firId": "SPIM", 
+      "firName": "SPIM LIMA", 
+      "hazard": "VA", 
+      "validTimeFrom": "2020-03-16T09:00:00Z", 
+      "validTimeTo": "2020-03-16T15:00:00Z", 
+      "qualifier": "SABANCAYA", 
+      "geom": "AREA", 
+      "coords": "-15.783,-71.833,-16.400,-71.833,-16.383,-72.033,-15.783,-71.833", 
+      "base": 0, 
+      "top": 24000, 
+      "rawSigmet": "WVPR31 SPIM 160827\nSPIM SIGMET 2 VALID 160900/161500 SPIM-\nSPIM LIMA FIR VA ERUPTION MT SABANCAYA PSN S1547 W07150\nVA CLD OBS AT 0740Z WI S1547 W07150 - S1624 W07150 - S1623 W07202 -\nS1547 W07150 SFC/FL240\nFCST AT 1330Z VA CLD WI S1547 W07150 - S1630 W07148 - S1628 W07201 -\nS1547 W07150="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-71.83,-15.78],[-71.83,-16.40],[-72.03,-16.38],[-71.83,-15.78] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SCCI", 
+      "firId": "SCCZ", 
+      "firName": "SCCZ PUNTA ARENAS", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T05:30:00Z", 
+      "validTimeTo": "2020-03-16T09:30:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-50.000,-73.572,-50.727,-73.231,-50.661,-72.296,-51.972,-72.023,-51.987,-69.993,-52.372,-68.430,-54.924,-68.616,-54.915,-67.175,-55.000,-66.904,-55.000,-74.000,-52.000,-74.000,-50.000,-74.000,-50.000,-73.572", 
+      "base": 37000, 
+      "top": 40000, 
+      "rawSigmet": "WSCH31 SCCI 160530\nSCCZ SIGMET 02 VALID 160530/160930 SCCI-\nSCCZ PUNTA ARENAS FIR SEV TURB FCST E OF LINE S5000 W07400 - S5200 \nW07400 - S5500 W07400 FL370/400 MOV SE WKN="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-73.57,-50.00],[-73.23,-50.73],[-72.30,-50.66],[-72.02,-51.97],
+        [-69.99,-51.99],[-68.43,-52.37],[-68.62,-54.92],[-67.17,-54.91],
+        [-66.90,-55.00],[-74.00,-55.00],[-74.00,-52.00],[-74.00,-50.00],
+        [-73.57,-50.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "NFFN", 
+      "firId": "NFFF", 
+      "firName": "NFFF NADI", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-14.900,162.100,-12.100,167.200,-18.400,173.700,-22.000,170.700,-22.900,169.400,-14.900,162.100", 
+      "top": 52000, 
+      "rawSigmet": "WSFJ01 NFFN 160300\nNFFF SIGMET 02 VALID 160600/161000 NFFN-\nNFFF NADI FIR EMBD TS OBS WI S1454 E16206 - S1206 E16712 - S1824\nE17342 - S2200 E17042 - S2254 E16924 - S1454 E16206 TOP FL520 STNR\nNC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[162.10,-14.90],[167.20,-12.10],[173.70,-18.40],[170.70,-22.00],
+        [169.40,-22.90],[162.10,-14.90] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FCBB", 
+      "firId": "FCCC", 
+      "firName": "FCCC BRAZZAVILLE", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T05:45:00Z", 
+      "validTimeTo": "2020-03-16T09:45:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-2.52,10.03,-3.30,15.12,-5.30,15.12,-4.52,10.03,-2.52,10.03 0.15,14.58,-2.57,14.12,-2.57,16.12,0.15,16.58,0.15,14.58 1.15,14.15,-1.72,14.15,-1.72,12.15,1.15,12.15,1.15,14.15 0.37,9.67,-2.22,11.13,-2.22,13.13,0.37,11.67,0.37,9.67 ", 
+      "top": 48000, 
+      "rawSigmet": "WSCG31 FCBB 160516\nFCCC SIGMET U2 VALID 160545/160945 FCBB-\nFCCC BRAZZAVILLE FIR/UIR EMBD TS OBS AT 0500Z\nS OF LINE S0231 E01002 - S0318 E01507\nE OF LINE N0009 E01435 - S0234 E01407\nW OF LINE N0109 E01409 - S0143 E01409\nE OF LINE N0022 E00940 - S0213 E01108\nTOP FL480 MOV W 10KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[10.03,-2.52],[15.12,-3.30],[15.12,-5.30],[10.03,-4.52],
+        [10.03,-2.52] ]
+,        [[14.58,0.15],[14.12,-2.57],[16.12,-2.57],[16.58,0.15],
+        [14.58,0.15] ]
+,        [[14.15,1.15],[14.15,-1.72],[12.15,-1.72],[12.15,1.15],
+        [14.15,1.15] ]
+,        [[9.67,0.37],[11.13,-2.22],[13.13,-2.22],[11.67,0.37],
+        [9.67,0.37] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "PHFO", 
+      "firId": "KZAK", 
+      "firName": "OAKLAND OCEANIC", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T05:50:00Z", 
+      "validTimeTo": "2020-03-16T09:50:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "27.333,-169.667,26.000,-165.000,17.667,-167.833,18.000,-171.333,27.333,-169.667", 
+      "top": 35000, 
+      "rawSigmet": "WSPA03 PHFO 160550\nSIGPAP\n\nKZAK SIGMET PAPA 6 VALID 160550/160950 PHFO- \nOAKLAND OCEANIC FIR EMBD TS WI N2720 W16940 - N2600 W16500 - N1740 \nW16750 - N1800 W17120 - N2720 W16940. CB TOPS TO FL350. MOV ESE \n10KT. NC. BASED ON SAT AND LTG OBS."
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-169.67,27.33],[-165.00,26.00],[-167.83,17.67],[-171.33,18.00],
+        [-169.67,27.33] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "AMMC", 
+      "firId": "YMMM", 
+      "firName": "YMMM MELBOURNE", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T05:25:00Z", 
+      "validTimeTo": "2020-03-16T09:25:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-27.833,94.333,-29.500,105.667,-34.000,107.833,-32.833,101.333,-34.000,88.333", 
+      "base": 25000, 
+      "top": 35000, 
+      "rawSigmet": "WSAU21 AMMC 160500\nYMMM SIGMET F01 VALID 160525/160925 YMMC-\nYMMM MELBOURNE FIR SEV TURB FCST WI S2750 E09420 - S2930 E10540 -\nS3400 E10750 - S3250 E10120 - S3400 E08820 FL250/350 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[94.33,-27.83],[105.67,-29.50],[107.83,-34.00],[101.33,-32.83],
+        [88.33,-34.00],[94.33,-27.83] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "AMMC", 
+      "firId": "YMMM", 
+      "firName": "YMMM MELBOURNE", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T05:31:00Z", 
+      "validTimeTo": "2020-03-16T09:31:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-50.000,102.167,-44.000,98.167,-39.667,100.333,-38.500,103.333,-40.167,106.833,-43.833,104.000,-50.000,108.000", 
+      "base": 18000, 
+      "top": 34000, 
+      "rawSigmet": "WSAU21 AMMC 160443\nYMMM SIGMET E02 VALID 160531/160931 YMMC-\nYMMM MELBOURNE FIR SEV TURB FCST WI S5000 E10210 - S4400 E09810 -\nS3940 E10020 - S3830 E10320 - S4010 E10650 - S4350 E10400 - S5000\nE10800 FL180/340 MOV E 25KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[102.17,-50.00],[98.17,-44.00],[100.33,-39.67],[103.33,-38.50],
+        [106.83,-40.17],[104.00,-43.83],[108.00,-50.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SBBS", 
+      "firId": "SBBS", 
+      "firName": "SBBS BRASILIA", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T07:40:00Z", 
+      "validTimeTo": "2020-03-16T11:40:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-20.317,-48.133,-21.867,-48.683,-22.733,-47.533,-23.017,-47.533,-23.433,-46.900,-23.200,-45.900,-22.750,-45.733,-21.367,-44.750,-20.000,-47.350,-20.317,-48.133", 
+      "top": 41000, 
+      "rawSigmet": "WSBZ31 SBBS 160734\nSBBS SIGMET 3 VALID 160740/161140 SBBS- SBBS BRASILIA FIR EMBD TS FCST WI S2019 W04808 - S2152 W04841 - S2244 W04732 - S2301 W04732 - S2326 W04654 - S2312 W04554 - S2245 W04544 - S2122 W04445 - S2000 W04721 - S2019 W04808 TOP FL410 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-48.13,-20.32],[-48.68,-21.87],[-47.53,-22.73],[-47.53,-23.02],
+        [-46.90,-23.43],[-45.90,-23.20],[-45.73,-22.75],[-44.75,-21.37],
+        [-47.35,-20.00],[-48.13,-20.32] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUKR", 
+      "firId": "UNKL", 
+      "firName": "UNKL KRASNOYARSK", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "57.350,88.167,57.450,97.533,52.133,92.283,51.533,88.283", 
+      "rawSigmet": "WSRA31 RUKR 160420\nUNKL SIGMET 2 VALID 160600/161000 UNKL-\nUNKL KRASNOYARSK FIR SEV TURB FCST S OF LINE N5721 E08810 - N5727\nE09732 AND NW OF LINE N5132 E08817 - N5208 E09217 - N5400 E09600\nSFC/FL100 MOV SE 20KMH NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[88.17,57.35],[97.53,57.45],[92.28,52.13],[88.28,51.53],[88.17,57.35] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUPK", 
+      "firId": "UHPP", 
+      "firName": "UHPP PETROPAVLOVSK-KAMCHATSKY", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:05:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "62.043,164.080,62.003,170.707,61.870,175.667,61.509,180.000,61.271,182.404,60.020,180.000,58.547,177.232,56.717,173.742,54.592,170.025,54.060,169.108,52.169,164.248,50.089,159.013,50.000,158.851,50.000,150.010,52.153,150.007,54.873,149.997,56.003,150.000,59.003,156.009,59.989,158.474,62.043,164.080", 
+      "base": 0, 
+      "top": 16000, 
+      "rawSigmet": "WSRA31 RUPK 160422\nUHPP SIGMET 4 VALID 160605/161000 UHPP-\nUHPP PETROPAVLOVSK-KAMCHATSKY FIR/UIR SEV TURB FCST N OF N50\nSFC/FL160 MOV N 30KMH NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[164.08,62.04],[170.71,62.00],[175.67,61.87],[180.00,61.51],
+        [182.40,61.27],[180.00,60.02],[177.23,58.55],[173.74,56.72],
+        [170.03,54.59],[169.11,54.06],[164.25,52.17],[159.01,50.09],
+        [158.85,50.00],[150.01,50.00],[150.01,52.15],[150.00,54.87],
+        [150.00,56.00],[156.01,59.00],[158.47,59.99],[164.08,62.04] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LPMG", 
+      "firId": "LPPC", 
+      "firName": "LPPC LISBOA", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "41.816,-8.000,41.959,-6.582,41.586,-6.188,41.097,-6.766,40.000,-6.959,40.00,-8.00,41.816,-8.000", 
+      "base": 20000, 
+      "top": 32000, 
+      "rawSigmet": "WSPO31 LPMG 160735\nLPPC SIGMET 1 VALID 160800/161200 LPPT-\nLPPC LISBOA FIR SEV TURB FCST N OF N4000 AND E OF W00800 FL200/320\nSTNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-8.00,41.82],[-6.58,41.96],[-6.19,41.59],[-6.77,41.10],
+        [-6.96,40.00],[-8.00,40.00],[-8.00,41.82] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "ZHHH", 
+      "firId": "ZHWH", 
+      "firName": "ZHWH WUHAN", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T07:50:00Z", 
+      "validTimeTo": "2020-03-16T11:50:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "36.672,115.377,35.116,115.415,34.499,115.932,32.878,115.796,30.098,115.923,29.064,114.566,29.403,113.024,29.528,109.388,31.878,109.530,33.512,110.821,34.536,110.264,35.629,112.720,36.672,115.377", 
+      "base": 26000, 
+      "top": 43000, 
+      "rawSigmet": "WSCI45 ZHHH 160704\nZHWH SIGMET 3 VALID 160750/161150 ZHHH-\nZHWH WUHAN FIR SEV TURB FCST N OF N28 FL260/430 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[115.38,36.67],[115.42,35.12],[115.93,34.50],[115.80,32.88],
+        [115.92,30.10],[114.57,29.06],[113.02,29.40],[109.39,29.53],
+        [109.53,31.88],[110.82,33.51],[110.26,34.54],[112.72,35.63],
+        [115.38,36.67] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "NZKL", 
+      "firId": "NZZC", 
+      "firName": "NZZC NEW ZEALAND", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:55:00Z", 
+      "validTimeTo": "2020-03-16T10:55:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-41.500,174.000,-43.167,174.667,-43.667,174.167,-43.000,172.000,-41.667,170.167,-40.000,170.833,-41.500,174.000", 
+      "base": 31000, 
+      "top": 38000, 
+      "rawSigmet": "WSNZ21 NZKL 160648\nNZZC SIGMET 7 VALID 160655/161055 NZKL-\nNZZC NEW ZEALAND FIR SEV TURB FCST WI S4130 E17400 - S4310 E17440 -\nS4340 E17410 - S4300 E17200 - S4140 E17010 - S4000 E17050 - S4130\nE17400 FL310/380 STNR WKN="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[174.00,-41.50],[174.67,-43.17],[174.17,-43.67],[172.00,-43.00],
+        [170.17,-41.67],[170.83,-40.00],[174.00,-41.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SBBR", 
+      "firId": "SBAZ", 
+      "firName": "SBAZ AMAZONICA", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T07:00:00Z", 
+      "validTimeTo": "2020-03-16T11:00:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-8.183,-46.400,-5.567,-50.367,-3.233,-47.550,-3.500,-46.233,-0.167,-43.250,-2.233,-41.617,-4.067,-42.533,-4.517,-43.117,-5.817,-44.333,-6.083,-44.950,-8.183,-46.400", 
+      "top": 43000, 
+      "rawSigmet": "WSBZ01 SBBR 160800\nSBAZ SIGMET 8 VALID 160700/161100 SBAZ- SBAZ AMAZONICA FIR EMBD TS FCST WI S0811 W04624 - S0534 W05022 - S0314 W04733 - S0330 W04614 - S0010 W04315 - S0214 W04137 - S0404 W04232 - S0431 W04307 - S0549 W04420 - S0605 W04457 - S0811 W04624 TOP FL430 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-46.40,-8.18],[-50.37,-5.57],[-47.55,-3.23],[-46.23,-3.50],
+        [-43.25,-0.17],[-41.62,-2.23],[-42.53,-4.07],[-43.12,-4.52],
+        [-44.33,-5.82],[-44.95,-6.08],[-46.40,-8.18] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FAOR", 
+      "firId": "FAJO", 
+      "firName": "FAJO JOHANNESBURG OCEANIC", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-27.500,15.000,-36.050,15.000,-27.500,14.517,-27.500,15.000", 
+      "base": 0, 
+      "top": 3000, 
+      "rawSigmet": "WSZA21 FAOR 160604\nFAJO SIGMET F01 VALID 160600/161000 FAOR-\nFAJO JOHANNESBURG OCEANIC FIR SEV TURB FCST WI\nS2730 E01500 - S3603 E01500 - S2730 E01431 - S2730 E01500 SFC/FL030="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[15.00,-27.50],[15.00,-36.05],[14.52,-27.50],[15.00,-27.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "FAOR", 
+      "firId": "FACA", 
+      "firName": "FACA CAPE TOWN", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:00:00Z", 
+      "validTimeTo": "2020-03-16T10:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-31.900,30.017,-32.917,31.867,-32.983,31.833,-34.167,30.617,-32.750,29.450", 
+      "base": 0, 
+      "top": 3000, 
+      "rawSigmet": "WSZA21 FAOR 160605\nFACA SIGMET C01 VALID 160600/161000 FAOR-\nFACA CAPE TOWN FIR SEV TURB FCST WI\nS3154 E03001 - S3255 E03152 - S3259 E03150 - S3410 E03037 -\nS3245 E02927 SFC/FL030="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[30.02,-31.90],[31.87,-32.92],[31.83,-32.98],[30.62,-34.17],
+        [29.45,-32.75],[30.02,-31.90] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "CWAO", 
+      "firId": "CZUL", 
+      "firName": "CZUL MONTREAL", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T06:10:00Z", 
+      "validTimeTo": "2020-03-16T10:10:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "61.87,-76.87,62.67,-76.37,61.90,-70.73,61.10,-71.23,61.87,-76.87", 
+      "base": 0, 
+      "top": 3000, 
+      "rawSigmet": "WSCN05 CWAO 160611\nCZUL SIGMET B2 VALID 160610/161010 CWEG-\nCZUL MONTREAL FIR SEV TURB OBS WTN 25 NM OF LINE N6216 W07637 - N6130 W07059\nSFC/FL030 QS INTSFYG="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-76.87,61.87],[-76.37,62.67],[-70.73,61.90],[-71.23,61.10],
+        [-76.87,61.87] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "VCBI", 
+      "firId": "VCCF", 
+      "firName": "VCCF COLOMBO", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:30:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "4.717,81.783,5.633,91.733,0.767,91.233,-0.767,82.517,4.717,81.783", 
+      "top": 50000, 
+      "rawSigmet": "WSSB31 VCBI 160830\nVCCF SIGMET A03 VALID 160830/161230 VCBI-\nVCCF COLOMBO FIR EMBD TS OBS WI N0443 E08147-\nN0538 E09144- N0046 E09114-\nS0046 E08231- N0443 E08147-\nTOP FL500 MOV N 05KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[81.78,4.72],[91.73,5.63],[91.23,0.77],[82.52,-0.77],
+        [81.78,4.72] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "OIII", 
+      "firId": "OIIX", 
+      "firName": "OIIX TEHRAN", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T11:30:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "34.350,60.783,34.650,60.467,36.217,56.567,30.917,56.383,31.250,61.517", 
+      "top": 32000, 
+      "rawSigmet": "WSIR31 OIII 160839\nOIIX SIGMET 1 VALID 160830/161130 OIII-\nOIIX TEHRAN FIR\nEMBD TS FCST WI N3421 E06047 - N3439 E06028 - N3613 E05634\n- N3055 E05623 - N3115 E06131 TOP FL320 MOV NE INTSF="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[60.78,34.35],[60.47,34.65],[56.57,36.22],[56.38,30.92],
+        [61.52,31.25],[60.78,34.35] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LEMM", 
+      "firId": "LECB", 
+      "firName": "LECB BARCELONA", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "41.333,-1.000,40.667,0.167,38.167,-1.000,38.500,-1.500,41.333,-1.000", 
+      "top": 32000, 
+      "rawSigmet": "WSSP32 LEMM 160830\nLECB SIGMET 2 VALID 160830/161200 LEVA-\nLECB BARCELONA FIR/UIR EMBD TS FCST WI N4120 W001 - N4040\nE00010 - N3810 W001 - N3830 W00130 - N4120 W001  TOP FL320 MOV\nN 20KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-1.00,41.33],[0.17,40.67],[-1.00,38.17],[-1.50,38.50],
+        [-1.00,41.33] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUMG", 
+      "firId": "UHMM", 
+      "firName": "UHMM MAGADAN", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:30:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "71.999,191.012,68.219,191.005,65.000,191.007,63.916,188.325,61.271,182.404,61.509,180.000,61.780,176.996,62.017,170.723,62.043,164.080,61.044,161.369,59.974,158.467,59.423,157.072,70.368,167.870,70.467,168.051,70.503,168.050,71.999,191.012", 
+      "rawSigmet": "WSRA31 RUMG 160829\nUHMM SIGMET 6 VALID 160830/161230 UHMM-\nUHMM MAGADAN FIR SEV TURB FCST SE OF LINE N7200 W16858 -\nN7030 E16800 - N5920 E15659 AND NW OF LINE N6700 W16858 -\nN6730 E17650 - N6150 E17445 FL300/380 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[191.01,72.00],[191.00,68.22],[191.01,65.00],[188.32,63.92],
+        [182.40,61.27],[180.00,61.51],[177.00,61.78],[170.72,62.02],
+        [164.08,62.04],[161.37,61.04],[158.47,59.97],[157.07,59.42],
+        [167.87,70.37],[168.05,70.47],[168.05,70.50],[191.01,72.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SBCW", 
+      "firId": "SBCW", 
+      "firName": "SBCW CURITIBA", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:30:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "-17.683,-55.917,-22.433,-52.700,-24.917,-48.567,-23.950,-45.317,-22.783,-45.767,-23.233,-45.867,-23.517,-46.883,-23.033,-47.600,-22.750,-47.600,-21.983,-48.433,-21.517,-49.650,-19.583,-51.583,-17.317,-53.933,-17.683,-55.917", 
+      "top": 40000, 
+      "rawSigmet": "WSBZ31 SBCW 160829\nSBCW SIGMET 8 VALID 160830/161230 SBCW- SBCW CURITIBA FIR EMBD TS FCST WI S1741 W05555 - S2226 W05242 - S2455 W04834 - S2357 W04519 - S2247 W04546 - S2314 W04552 - S2331 W04653 - S2302 W04736 - S2245 W04736 - S2159 W04826 - S2131 W04939 - S1935 W05135 - S1719 W05356 - S1741 W05555 TOP FL400 STNRNC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-55.92,-17.68],[-52.70,-22.43],[-48.57,-24.92],[-45.32,-23.95],
+        [-45.77,-22.78],[-45.87,-23.23],[-46.88,-23.52],[-47.60,-23.03],
+        [-47.60,-22.75],[-48.43,-21.98],[-49.65,-21.52],[-51.58,-19.58],
+        [-53.93,-17.32],[-55.92,-17.68] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "LEMM", 
+      "firId": "LECM", 
+      "firName": "LECM MADRID", 
+      "hazard": "TS", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "EMBD", 
+      "geom": "AREA", 
+      "coords": "38.500,-1.500,38.500,-2.833,41.833,-2.167,41.167,-0.833,38.500,-1.500", 
+      "top": 32000, 
+      "rawSigmet": "WSSP31 LEMM 160827\nLECM SIGMET 7 VALID 160830/161200 LEVA-\nLECM MADRID FIR/UIR EMBD TS FCST WI N3830 W00130 - N3830 W00250\n- N4150 W00210 - N4110 W00050 - N3830 W00130  TOP FL320 MOV N\n20KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-1.50,38.50],[-2.83,38.50],[-2.17,41.83],[-0.83,41.17],
+        [-1.50,38.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "SBCW", 
+      "firId": "SBCW", 
+      "firName": "SBCW CURITIBA", 
+      "hazard": "ICE", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:30:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-27.317,-54.167,-27.567,-54.783,-28.233,-55.733,-30.217,-57.617,-30.267,-57.200,-30.100,-57.117,-30.100,-56.833,-31.083,-55.950,-30.850,-55.667,-32.733,-53.117,-33.167,-53.517,-33.650,-53.517,-34.033,-52.967,-33.983,-50.400,-30.400,-46.850,-27.317,-54.167", 
+      "base": 12000, 
+      "top": 24000, 
+      "rawSigmet": "WSBZ31 SBCW 160829\nSBCW SIGMET 7 VALID 160830/161230 SBCW- SBCW CURITIBA FIR SEV ICE FCST WI S2719 W05410 - S2734 W05447 - S2814 W05544 - S3013 W05737 - S3016 W05712 - S3006 W05707 - S3006 W05650 - S3105 W05557 - S3051 W05540 - S3244 W05307 - S3310 W05331 - S3339 W05331 - S3402 W05258 - S3359 W05024 - S3024 W04651- S2719 W05410 FL120/240 MOV ENE 03KT WKN="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-54.17,-27.32],[-54.78,-27.57],[-55.73,-28.23],[-57.62,-30.22],
+        [-57.20,-30.27],[-57.12,-30.10],[-56.83,-30.10],[-55.95,-31.08],
+        [-55.67,-30.85],[-53.12,-32.73],[-53.52,-33.17],[-53.52,-33.65],
+        [-52.97,-34.03],[-50.40,-33.98],[-46.85,-30.40],[-54.17,-27.32] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RURD", 
+      "firId": "URRV", 
+      "firName": "URRV ROSTOV", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "45.233,49.517,42.861,49.525,42.613,50.044,41.823,48.576,41.189,47.670,41.894,46.419,42.140,45.800,42.426,45.800,42.451,45.822,42.458,45.800,42.500,45.800,45.133,47.083,45.233,49.500,45.233,49.517", 
+      "base": 0, 
+      "top": 15000, 
+      "rawSigmet": "WSRS31 RURD 160827\nURRV SIGMET 5 VALID 160830/161200 URRR-\nURRV ROSTOV FIR SEV TURB FCST SE OF LINE N4514 E04930 - N4508 E04705\n- N4230 E04548 SFC/FL150 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[49.52,45.23],[49.52,42.86],[50.04,42.61],[48.58,41.82],
+        [47.67,41.19],[46.42,41.89],[45.80,42.14],[45.80,42.43],
+        [45.82,42.45],[45.80,42.46],[45.80,42.50],[47.08,45.13],
+        [49.50,45.23],[49.52,45.23] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RURD", 
+      "firId": "URRV", 
+      "firName": "URRV ROSTOV", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:30:00Z", 
+      "validTimeTo": "2020-03-16T12:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "43.600,39.217,44.700,37.783,45.117,38.533,44.200,42.667,43.317,41.167,43.917,39.933,43.600,39.217", 
+      "base": 0, 
+      "top": 15000, 
+      "rawSigmet": "WSRS31 RURD 160824\nURRV SIGMET 4 VALID 160830/161200 URRR-\nURRV ROSTOV FIR SEV TURB FCST WI N4336 E03913 - N4442 E03747 - N4507\nE03832 - N4412 E04240 - N4319 E04110 - N4355 E03956 - N4336 E03913\nSFC/FL150 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[39.22,43.60],[37.78,44.70],[38.53,45.12],[42.67,44.20],
+        [41.17,43.32],[39.93,43.92],[39.22,43.60] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "NZKL", 
+      "firId": "NZZC", 
+      "firName": "NZZC NEW ZEALAND", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T08:27:00Z", 
+      "validTimeTo": "2020-03-16T12:27:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-42.000,174.333,-42.000,174.000,-41.500,174.000,-40.833,173.500,-40.500,174.000,-41.167,174.500,-42.000,174.333", 
+      "base": 0, 
+      "top": 4000, 
+      "rawSigmet": "WSNZ21 NZKL 160822\nNZZC SIGMET 9 VALID 160827/161227 NZKL-\nNZZC NEW ZEALAND FIR SEV TURB FCST WI S4200 E17420 - S4200 E17400 -\nS4130 E17400 - S4050 E17330 - S4030 E17400 - S4110 E17430 - S4200\nE17420 SFC/FL040 STNR INTSF="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[174.33,-42.00],[174.00,-42.00],[174.00,-41.50],[173.50,-40.83],
+        [174.00,-40.50],[174.50,-41.17],[174.33,-42.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RURD", 
+      "firId": "URRV", 
+      "firName": "URRV ROSTOV", 
+      "hazard": "ICE", 
+      "validTimeFrom": "2020-03-16T08:25:00Z", 
+      "validTimeTo": "2020-03-16T10:20:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "42.548,45.533,42.764,44.886,42.594,44.140,43.001,43.271,44.100,43.583,43.817,45.750,42.567,45.533,42.548,45.533", 
+      "base": 21000, 
+      "top": 24000, 
+      "rawSigmet": "WSRS31 RURD 160822\nURRV SIGMET 3 VALID 160825/161020 URRR-\nURRV ROSTOV FIR SEV ICE (FZRA) FCST S OF LINE N4252 E04314 - N4406\nE04335 - N4349 E04545 - N4234 E04532 FL210/240 MOV NE 30KMH NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[45.53,42.55],[44.89,42.76],[44.14,42.59],[43.27,43.00],
+        [43.58,44.10],[45.75,43.82],[45.53,42.57],[45.53,42.55] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "BGSF", 
+      "firId": "BGGL", 
+      "firName": "BGGL NUUK", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T07:30:00Z", 
+      "validTimeTo": "2020-03-16T11:30:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "65.567,-36.783,65.900,-37.150,67.500,-33.117,67.033,-32.617,65.567,-36.783", 
+      "base": 0, 
+      "top": 12000, 
+      "rawSigmet": "WSGL31 BGSF 160729\nBGGL SIGMET U06 VALID 160730/161130 BGSF-\nBGGL NUUK FIR SEV TURB FCST AT 0730Z WI N6534 W03647 - N6554 W03709 \n- N6730 \nW03307 - N6702 W03237 - N6534 W03647 SFC/FL120 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-36.78,65.57],[-37.15,65.90],[-33.12,67.50],[-32.62,67.03],
+        [-36.78,65.57] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "AMRF", 
+      "firId": "YBBB", 
+      "firName": "YBBB BRISBANE", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T07:10:00Z", 
+      "validTimeTo": "2020-03-16T11:10:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-31.500,158.667,-31.167,159.000,-31.500,159.500,-31.833,159.167", 
+      "base": 0, 
+      "top": 5000, 
+      "rawSigmet": "WSAU21 AMRF 160710\nYBBB SIGMET O01 VALID 160710/161110 YMRF-\nYBBB BRISBANE FIR SEV TURB FCST WI S3130 E15840 - S3110 E15900 -\nS3130 E15930 - S3150 E15910 SFC/5000FT STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[158.67,-31.50],[159.00,-31.17],[159.50,-31.50],[159.17,-31.83],[158.67,-31.50] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "RUMG", 
+      "firId": "UHMM", 
+      "firName": "UHMM MAGADAN", 
+      "hazard": "ICE", 
+      "validTimeFrom": "2020-03-16T07:30:00Z", 
+      "validTimeTo": "2020-03-16T11:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "67.000,-168.967,65.000,-168.967,61.333,-177.750,67.500,-183.167,67.000,-168.967", 
+      "base": 0, 
+      "top": 10000, 
+      "rawSigmet": "WSRA31 RUMG 160724\nUHMM SIGMET 5 VALID 160730/161100 UHMM-\nUHMM MAGADAN FIR SEV ICE FCST WI N6700 W16858 - N6500 W16858 -\nN6120 W17745 - N6730 E17650 - N6700 W16858 SFC/FL100 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-168.97,67.00],[-168.97,65.00],[-177.75,61.33],[-183.17,67.50],
+        [-168.97,67.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "ZHHH", 
+      "firId": "ZHWH", 
+      "firName": "ZHWH WUHAN", 
+      "hazard": "ICE", 
+      "validTimeFrom": "2020-03-16T07:50:00Z", 
+      "validTimeTo": "2020-03-16T11:50:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "36.672,115.377,35.116,115.415,34.499,115.932,32.878,115.796,30.098,115.923,29.064,114.566,29.403,113.024,29.528,109.388,31.878,109.530,33.512,110.821,34.536,110.264,35.629,112.720,36.672,115.377", 
+      "base": 12000, 
+      "top": 16000, 
+      "rawSigmet": "WSCI45 ZHHH 160707\nZHWH SIGMET 4 VALID 160750/161150 ZHHH-\nZHWH WUHAN FIR SEV ICE FCST N OF N28 FL120/160 STNR NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[115.38,36.67],[115.42,35.12],[115.93,34.50],[115.80,32.88],
+        [115.92,30.10],[114.57,29.06],[113.02,29.40],[109.39,29.53],
+        [109.53,31.88],[110.82,33.51],[110.26,34.54],[112.72,35.63],
+        [115.38,36.67] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "NZKL", 
+      "firId": "NZZO", 
+      "firName": "NZZO AUCKLAND OCEANIC", 
+      "hazard": "TURB", 
+      "validTimeFrom": "2020-03-16T07:05:00Z", 
+      "validTimeTo": "2020-03-16T11:05:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "-44.000,177.333,-45.500,188.667,-41.000,194.667,-33.833,195.5,-42.333,187.167,-43.333,177.500,-44.000,177.333", 
+      "base": 32000, 
+      "top": 40000, 
+      "rawSigmet": "WSPS21 NZKL 160701\nNZZO SIGMET 19 VALID 160705/161105 NZKL-\nNZZO AUCKLAND OCEANIC FIR SEV TURB FCST WI S4400 E17720 - S4530\nW17120 - S4100 W16520 - S3350 W16430 - S4220 W17250 - S4320 E17730 -\nS4400 E17720 FL320/400 MOV SE 25KT NC="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[177.33,-44.00],[188.67,-45.50],[194.67,-41.00],[195.50,-33.83],
+        [187.17,-42.33],[177.50,-43.33],[177.33,-44.00] ]
+ ]
+    } 
+  },
+  { "type": "Feature",
+    "properties": {
+      "icaoId": "EGRR", 
+      "firId": "EGPX", 
+      "firName": "EGPX SCOTTISH", 
+      "hazard": "MTW", 
+      "validTimeFrom": "2020-03-16T08:00:00Z", 
+      "validTimeTo": "2020-03-16T11:00:00Z", 
+      "qualifier": "SEV", 
+      "geom": "AREA", 
+      "coords": "56.967,-7.650,58.433,-6.917,58.867,-3.500,55.733,-5.817,56.967,-7.650", 
+      "base": 3000, 
+      "top": 25000, 
+      "rawSigmet": "WSUK33 EGRR 160705\nEGPX SIGMET 01 VALID 160800/161100 EGRR-\nEGPX SCOTTISH FIR SEV MTW FCST WI N5658 W00739 - N5826 W00655 -\nN5852 W00330 - N5544 W00549 - N5658 W00739 FL030/250 MOV ESE 15KT\nINTSF="
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [[-7.65,56.97],[-6.92,58.43],[-3.50,58.87],[-5.82,55.73],
+        [-7.65,56.97] ]
+ ]
+    } 
+  }]}
